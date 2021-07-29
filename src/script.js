@@ -34,5 +34,8 @@ let arrowFunction = (name) => console.log(name);
 func("ArrowFunctionVariable", arrowFunction);
 
 let printHi = (name) => "Hi " + name;
-
 console.log(printHi("another example"));
+
+// arrow function example with no parameters
+let hiArrow = () => console.log("hi");
+hiArrow();
