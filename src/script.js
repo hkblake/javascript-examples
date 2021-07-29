@@ -26,7 +26,13 @@ func("ArrowFunction", (variable) => {
 // set the arrow function to a variable
 // we can put the arrow function on oneline
 // because it is a one line function
+// we can eliminate the parens around name
+// because there is only one parameter
 let arrowFunction = (name) => console.log(name);
 
 // call func with arrowFunction variable
 func("ArrowFunctionVariable", arrowFunction);
+
+let printHi = (name) => "Hi " + name;
+
+console.log(printHi("another example"));
